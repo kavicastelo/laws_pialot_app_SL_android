@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".spec_contacts">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/scback"
+            android:layout_width="48dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="32dp"
+            android:background="@android:color/transparent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.093"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_return_back" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="30dp"
+            android:fontFamily="serif"
+            android:text="Special Contacts"
+            android:textSize="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.213"
+            app:layout_constraintStart_toEndOf="@+id/scback"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:orientation="horizontal"
+            android:id="@+id/scradiogroup">
+
+            <RadioButton
+                android:id="@+id/scdig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DIG"
+                android:textSize="25dp"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="100dp"
+                tools:layout_editor_absoluteX="108dp"
+                tools:layout_editor_absoluteY="-2dp" />
+
+            <RadioButton
+                android:id="@+id/scsdig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Senior DIG"
+                android:textSize="25dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="100dp"
+                tools:layout_editor_absoluteX="205dp"
+                tools:layout_editor_absoluteY="-2dp" />
+
+        </RadioGroup>
+
+        <ListView
+            android:id="@+id/sclistView"
+            android:layout_width="match_parent"
+            android:layout_height="4400dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/scradiogroup" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

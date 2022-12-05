@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">SL Police Mobile</string>
+    <string name="about">
+        The Police Department was established on 03 September 1866 with the view of providing an organized service to the public during the British administration according to the Police Ordinance No. 16 of 1865.
+        Since then, for about 156 years, the Sri Lanka Police is committed to discharging the significant responsibility of establishing and maintaining the law and order of the country.
+        Sri Lanka Police is vested with the responsibility of establishing social security by affirming the security of every aspect of public life. Control and prevention of crimes, prevention of drug menace, controlling corruption, traffic control, protection of the environment, making relief to people in disaster situations, and providing VIP security are the main tasks included in the scope of the police. More than 88000 police officers in Supra grade, inspector grade, and junior grade are deployed 24 hours a day for implementation of the above tasks throughout the island. These officers discharge a significant service as the regular service and support service and Special TasksForce. In addition, more than 4000 civil officers are discharging duties assisting the tasks of SriLanka Police. Sri Lanka Police, which had rendered a historical service of 156 years, has developed a closer relationship with the public and established 582 police stations at the moment for perform inga wider role. In addition, the services of the Sri Lanka Police are implemented through an organizational structure that includes 44 territorial divisions and 62 functional divisions. \n\n
+        Click the link below for more details.
+        \n<a href="https://www.police.lk/index.php/police-history">https://www.police.lk/index.php/police-history</a>
+    </string>
+    <string name="medal_link">
+        Please <a href="https://www.police.lk/index.php/library/item/177-police-medals">CLICK HERE</a> to read more details.
+    </string>
+    <string name="progress_detail">Loading details...</string>
+    <string name="progress_check_email">Checking Email Address...</string>
+    <string name="progress_update">Updating...</string>
+
+    <string-array name="lawCat">
+        <item> select category </item>
+        <item> cat1 </item>
+        <item> cat2 </item>
+        <item> cat3 </item>
+        <item> cat4 </item>
+        <item> Colombo Central Police Division </item>
+    </string-array>
+
+    <string-array name="Province">
+        <item> SELECT PROVINCE </item>
+        <item> Western Province </item>
+        <item> Southern Province </item>
+        <item> Northern Province </item>
+        <item> Eastern Province </item>
+        <item> North Western Province </item>
+        <item> North Central Province </item>
+        <item> Uva Province </item>
+        <item> Sabaragamuwa Province </item>
+        <item> not added </item>
+    </string-array>
+</resources>
